@@ -5,7 +5,7 @@ public class SuperChildAssign extends SuperParentAssign{
 
 	public void display()
 		{
-			System.out.println("super child class");
+			System.out.println("super child class1");
 			System.out.println(super.a);
 			super.print();//method
 		}
