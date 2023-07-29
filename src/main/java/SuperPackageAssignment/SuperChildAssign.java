@@ -8,6 +8,7 @@ public class SuperChildAssign extends SuperParentAssign{
 			System.out.println("super child class2");
 			System.out.println(super.a);
 			super.print();//method
+			super.print();//method
 		}
 			public static void main(String[] args) {
 				// TODO Auto-generated method stub
