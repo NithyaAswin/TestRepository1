@@ -5,6 +5,6 @@ public class SuperParentAssign {
 	static String s = "check static variable";//static variable
 	public void print()
 	{
-		System.out.println("This is Super parent variable and method1");
+		System.out.println("This is Super parent variable and method2");
 	}
 }
