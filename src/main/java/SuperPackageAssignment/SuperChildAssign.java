@@ -1,5 +1,6 @@
 package SuperPackageAssignment;
 
+import accessmodifierassign.Class1Assign;
 
 public class SuperChildAssign extends SuperParentAssign{
 
@@ -18,6 +19,8 @@ public class SuperChildAssign extends SuperParentAssign{
 				SuperChildAssign obj1 = new SuperChildAssign();
 	            obj1.display();
 		//obj1.print();
+	            Class1Assign.add(); 
+	          //  Class1Assign.sub();//outside package different class has no accessibilty for private
 			}
 
 

@@ -12,6 +12,10 @@ public class Class2Assign extends Class1Assign {
 		// TODO Auto-generated method stub
 		Class2Assign.subtract();
 		Class1Assign.add();
+		Class1Assign.sub();
+		
+		Class1Assign.print();
+		
 	}
 
 }
