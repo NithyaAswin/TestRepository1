@@ -14,6 +14,11 @@ public class ExceptionHandlingSample {
 			{
 				System.out.println(e);
 			}
+			
+			finally //finally block is executed evenif exception is handled or not handled
+			{
+				System.out.println("this is finally block");
+			}
 		}
 		
 		public static void main(String[] args)

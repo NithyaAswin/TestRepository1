@@ -12,12 +12,14 @@ public class ExeptionhandlingArrayoutofbound {
 		
 		try
 		{
-		for (int i=0;i <=5;i++)
+		/*for (int i=0;i <=5;i++)
 		{
 			System.out.println(arr1[i]);
-		}
+		}*/
+			System.out.println(arr1[5]);
 	}
-		catch(ArrayIndexOutOfBoundsException e)
+		//catch(ArrayIndexOutOfBoundsException e)
+		catch(Exception e)
 		{
 			System.out.println(e);
 		}

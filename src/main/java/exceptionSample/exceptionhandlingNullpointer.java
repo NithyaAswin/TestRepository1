@@ -9,7 +9,7 @@ public class exceptionhandlingNullpointer {
 		String s = null;
 		System.out.println(s.length());
 		}
-		catch(NullPointerException e)
+		catch(Exception e)
 		{
 			System.out.println(e);
 		}
